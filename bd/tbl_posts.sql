@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: localhost:3306
--- Tiempo de generación: 26-08-2025 a las 21:46:27
--- Versión del servidor: 8.0.30
--- Versión de PHP: 8.1.10
+-- Servidor: localhost
+-- Tiempo de generación: 30-08-2025 a las 21:09:24
+-- Versión del servidor: 10.4.28-MariaDB
+-- Versión de PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,21 +24,21 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `posts_post`
+-- Estructura de tabla para la tabla `tbl_posts`
 --
 
-CREATE TABLE `posts_post` (
-  `id` bigint NOT NULL,
-  `title` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `content` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+CREATE TABLE `tbl_posts` (
+  `id` bigint(20) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `content` longtext NOT NULL,
   `created_at` datetime(6) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `posts_post`
+-- Volcado de datos para la tabla `tbl_posts`
 --
 
-INSERT INTO `posts_post` (`id`, `title`, `content`, `created_at`) VALUES
+INSERT INTO `tbl_posts` (`id`, `title`, `content`, `created_at`) VALUES
 (3, 'Post 1', 'Contenido del post número 1', '2025-08-26 16:29:35.000000'),
 (4, 'Post 2', 'Contenido del post número 2', '2025-08-26 16:29:35.000000'),
 (5, 'Post 3', 'Contenido del post número 3', '2025-08-26 16:29:35.000000'),
@@ -145,9 +145,9 @@ INSERT INTO `posts_post` (`id`, `title`, `content`, `created_at`) VALUES
 --
 
 --
--- Indices de la tabla `posts_post`
+-- Indices de la tabla `tbl_posts`
 --
-ALTER TABLE `posts_post`
+ALTER TABLE `tbl_posts`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -155,10 +155,10 @@ ALTER TABLE `posts_post`
 --
 
 --
--- AUTO_INCREMENT de la tabla `posts_post`
+-- AUTO_INCREMENT de la tabla `tbl_posts`
 --
-ALTER TABLE `posts_post`
-  MODIFY `id` bigint NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+ALTER TABLE `tbl_posts`
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

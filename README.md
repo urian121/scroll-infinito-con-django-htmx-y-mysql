@@ -1,13 +1,13 @@
 
-# 📜 Proyecto: Scroll Infinito con Django + HTMX
+# 🚀 Infinite Scroll con Django + HTMX + MySQL + Bootstrap 5
 
-Este proyecto es una demo sencilla de **scroll infinito** usando Django como backend y HTMX para cargar contenido dinámico sin recargar toda la página.
+Un sistema de carga progresiva de contenido (infinite scroll) optimizado para rendimiento, construido con Django en el backend y potenciado con HTMX para una experiencia de usuario fluida. Este proyecto demuestra cómo implementar una carga eficiente de contenido bajo demanda, reduciendo el tiempo de carga inicial y mejorando la experiencia del usuario con actualizaciones sin recarga de página.
 
 ## 🚀 Tecnologías
 - Django
 - HTMX
 - Bootstrap 5
-- MySQL (mysqlclient)
+- MySQL (mysqlclient) y PyMySQL
 
 ## ⚙️ Instalación
 1. Clona este repositorio:
@@ -34,6 +34,17 @@ Este proyecto es una demo sencilla de **scroll infinito** usando Django como bac
 - Carga automática de posts cuando el usuario hace scroll.
 - Interfaz limpia y rápida con Bootstrap.
 
----
 
-💡 Proyecto educativo para practicar **Django + HTMX** y scroll infinito.
+## 🙌 Cómo puedes apoyar 📢:
+
+✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
+
+☕ **Invítame un café o una cerveza 🍺**:
+   - [Paypal](https://www.paypal.me/iamdeveloper86) (`iamdeveloper86@gmail.com`).
+
+### ⚡ ¡No olvides SUSCRIBIRTE a la [Comunidad WebDeveloper](https://www.youtube.com/WebDeveloperUrianViera?sub_confirmation=1)!
+
+
+#### ⭐ **Déjanos una estrella en GitHub**:
+   - Dicen que trae buena suerte 🍀.
+**Gracias por tu apoyo 🤓.**

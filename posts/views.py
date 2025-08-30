@@ -11,8 +11,8 @@ def load_posts(request, start):
     limit = 10
     # Calcula el índice final para el slice de posts
     end = start + limit
-    # Obtiene los posts desde el índice start hasta end
-    posts = Post.objects.all()[start:end]
+    # Obtiene los posts ordenados por ID ascendente desde el índice start hasta end
+    posts = Post.objects.order_by('id')[start:end]
     # Verifica si hay más posts después de este lote
     has_more = Post.objects.count() > end
     # Renderiza el template parcial con los posts y datos necesarios para HTMX
