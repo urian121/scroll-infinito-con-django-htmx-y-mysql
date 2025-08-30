@@ -3,6 +3,10 @@
 
 Un sistema de carga progresiva de contenido (infinite scroll) optimizado para rendimiento, construido con Django en el backend y potenciado con HTMX para una experiencia de usuario fluida. Este proyecto demuestra cómo implementar una carga eficiente de contenido bajo demanda, reduciendo el tiempo de carga inicial y mejorando la experiencia del usuario con actualizaciones sin recarga de página.
 
+### Resultado Final 😲
+![Resultado Final](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/scroll-infinito-con-Django-HTMX-y-MySQL.gif)
+
+
 ## 🚀 Tecnologías
 - Django
 - HTMX
