@@ -38,6 +38,10 @@ Un sistema de carga progresiva de contenido (infinite scroll) optimizado para re
 - Carga automática de posts cuando el usuario hace scroll.
 - Interfaz limpia y rápida con Bootstrap.
 
+## 📚 Recursos adicionales
+
+- [Documentación oficial de HTMX](https://htmx.org/docs/)
+- [Documentación de scroll infinito con HTMX](https://htmx.org/examples/infinite-scroll/)
 
 ## 🙌 Cómo puedes apoyar 📢:
 
